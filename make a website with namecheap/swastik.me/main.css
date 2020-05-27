@@ -52,8 +52,8 @@ h2 {
   font-weight: 600;
   letter-spacing: 0.3px;
   text-align: left;
-  color: #ffa500;
-  padding: 10px 0px 10px 10px;
+  color:    #592352  ;
+  padding: 10px 0px 0px 10px;
 }
 
 img {
@@ -67,18 +67,20 @@ img {
 }
 
 .recipe:hover{
-  background-color: #fae397;
+  background-color: #fceebf;
+    box-shadow: 10px 10px gray;
+
 }
 
 .a {
+}
 
-  
+.b {
+
 }
 
 .c {
  
-
-  
 }
 
 .time {
@@ -140,6 +142,7 @@ footer {
   position: relative;
   top:20px;
   bottom: 25px;
+  
 }
 
 
