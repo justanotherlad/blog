@@ -22,6 +22,10 @@ div{
   overflow: hidden;
 }
 
+header{
+  margin-bottom: 60px;
+}
+
 
 main {
 
@@ -124,7 +128,7 @@ img {
 }
 
 footer {
-  margin-top: 44px;
+  margin-top: 84px;
   height:70px;
 
 }
