@@ -1,6 +1,14 @@
+*{
+  margin-right:0;
+}
+
+
 html{
     background-color: #e6fcf5; 
-
+    margin-top: -29px;
+    margin-bottom: -100px;
+    margin-left: -8px;
+    
 }
 
 header, footer {
@@ -9,6 +17,11 @@ header, footer {
   min-width: 500px;
   padding-bottom: 20px: 
 }
+
+div{
+  overflow: hidden;
+}
+
 
 main {
 
@@ -37,11 +50,11 @@ h1{
 
 .blog{
   font-family: 'Amatic SC', cursive;
-  padding-bottom: 15px;
+  padding-bottom: 17px;
   letter-spacing: 5px;
   color: white;
   position: relative;
-  bottom: 12px;
+  bottom: 8px;
 
 }
 
@@ -72,16 +85,6 @@ img {
 
 }
 
-.a {
-}
-
-.b {
-
-}
-
-.c {
- 
-}
 
 .time {
   padding-left: 10px;
@@ -114,12 +117,6 @@ img {
   border-top: 1px solid #4a4a4a;
 }
 
-.logo {
-  width: 115px;
-  height: 21.1px;
-  object-fit: contain;
-  padding: 20px;
-}
 
 .container {
   min-width: 500px;
@@ -128,26 +125,31 @@ img {
 
 footer {
   margin-top: 44px;
+  height:70px;
 
 }
 
 .my_foot{
-  padding: 0 auto;
+  padding: 0;
+  margin: 0;
   color: white;
 }
 
 .my_foot ul{
+  padding: 0;
+  margin: 0;
   display: inline;
   list-style: none;
   position: relative;
-  top:20px;
-  bottom: 25px;
+  top:28px;
 
 }
 
 
 
 #contact{
+  padding: 0;
+  margin: 0;
   float: right;
   font-size:17px; 
   text-decoration: none;
@@ -158,7 +160,7 @@ footer {
   border: 1px solid white;
   padding:5px 7px;
   margin-right: 20px;
-  position: relative;bottom: 50px;
+  position: relative;bottom: 45px;
   border-radius: 7%;
     
 
@@ -171,6 +173,7 @@ footer {
 }
 
 #tweet{
+
   float:left;
   position: relative;bottom: 16px;left:40px;
   color:white;
@@ -182,21 +185,25 @@ footer {
 }
 
 .my_foot code{
+  padding: 0;
+  margin: 0;
   display: flex;
   height:100%;
   width: 100%;
   justify-content: center;
   align-items: center;
   position: relative;
-  bottom: 10px;
+  bottom: 7px;
 }
 
 .my_foot img{
+  padding: 0;
+  margin: 0;
   height: 3%;
   width: 3%;
   float:left;
   position: relative;
-  left: 70px;
+  
   bottom: 13px;
   border: 3px solid white;
   border-radius: 10px;
@@ -212,6 +219,9 @@ footer {
 
 .fa{
 
+    padding: 0;
+    margin: 0;
     padding-right: 30px;
+
 
 }
