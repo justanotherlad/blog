@@ -1,0 +1,77 @@
+html{
+  background-color:  #f2f0e8;
+}
+
+header, footer {
+  background-color: #447c95 ;
+  text-align: center;
+  min-width: 500px;
+  color:   #d6dadc  ;
+}
+
+.desc{
+  text-align: center;
+  font-family: 'Special Elite', cursive;
+
+}
+
+h5{
+  position: relative;
+  bottom: 15px;
+}
+
+p{
+  font-family: 'Harmattan', sans-serif;
+  font-size: 22px;
+  color: #4a4947;
+  word-wrap: break-word;
+  padding-left: 35px;
+  padding-right: 35px;
+  line-height: 23px;
+}
+
+.p1{
+    text-indent: 150px;
+
+}
+
+.newline{
+    margin-left: 150px;
+
+}
+
+
+main {
+  
+
+
+}
+
+header{
+  height:50px;
+  padding-top: 10px;
+}
+
+h1{
+  font-family: 'Special Elite', cursive;
+  padding-top: 10px;
+  position: relative;
+  bottom: 20px;
+}
+
+
+.container {
+  min-width: 500px;
+  margin: auto;
+}
+
+footer {
+  margin-top: 44px;
+  height:55px;
+}
+
+code{
+  position: relative;
+  top:20px;
+  color: white;
+}
