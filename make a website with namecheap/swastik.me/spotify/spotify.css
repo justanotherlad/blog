@@ -1,5 +1,5 @@
 html{
-  background-color: #FADA5E ;
+  background-color: black ;
 }
 
 header, footer {
@@ -12,6 +12,7 @@ header, footer {
 .desc{
   text-align: center;
   font-family: 'Special Elite', cursive;
+  color:#FADA5E;
 
 }
 
