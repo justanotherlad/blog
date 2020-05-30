@@ -1,3 +1,4 @@
+
 html{
   background-color:  #f2f0e8;
 }
@@ -39,6 +40,58 @@ p{
     margin-left: 150px;
 
 }
+
+blockquote{
+    color: #191c1a ;
+
+}
+
+.meme{
+  margin-right: 250px;
+  margin-left: 150px;
+  border: 1px solid black;
+  padding: 20px 20px;
+  border-radius: 10%;
+  background-image: url("whatsapp.png")
+}
+
+video{
+  outline: none;
+}
+
+.vid{
+  outline: none;
+  padding-left: 600px;
+}
+
+.ami{
+  position: relative;
+  bottom: 300px;
+  margin-left: 350px;
+
+  border: 1px solid black;
+  margin-right: 300px;
+  padding: 35px 12px;
+  border-radius: 5%;
+  background-color: #075E54;
+  font-weight: bold;
+}
+
+.dip{
+  border: 1px solid black;
+  margin-right: 540px;
+  margin-left: 30px;
+  padding: 35px 12px;
+  border-radius: 5%;
+  background-color: #075E54;
+  font-weight: bold;
+}
+
+.p2{
+  text-indent: 150px;
+
+}
+
 
 
 main {
