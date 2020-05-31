@@ -28,7 +28,7 @@ p{
   word-wrap: break-word;
   padding-left: 35px;
   padding-right: 35px;
-  line-height: 23px;
+  line-height: 30px;
 }
 
 .p1{
@@ -77,6 +77,11 @@ video{
   font-weight: bold;
 }
 
+.wr{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
 .dip{
   border: 1px solid black;
   margin-right: 540px;
@@ -88,7 +93,8 @@ video{
 }
 
 .p2{
-  text-indent: 150px;
+    
+    line-height: 30px;
 
 }
 
