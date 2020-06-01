@@ -82,6 +82,33 @@ video{
   grid-template-columns: 1fr 1fr;
 }
 
+.wr2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.wr3{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+}
+
+.wr4{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 10px;
+}
+
+
+.img2{
+  grid-template-rows: 1fr 1fr;
+  align-self: start;
+  
+}
+
+
 .dip{
   border: 1px solid black;
   margin-right: 540px;
@@ -95,14 +122,6 @@ video{
 .p2{
     
     line-height: 30px;
-
-}
-
-
-
-main {
-  
-
 
 }
 
