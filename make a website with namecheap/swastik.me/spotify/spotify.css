@@ -16,15 +16,11 @@ header, footer {
 
 }
 
-img{
-  height: 10%;
-  width: 10%;
+.img1{
+  height: 20%;
+  width: 20%;
   position: relative;
   bottom: 50px;
-}
-
-.img_container{
-  text-align: center;
 }
 
 h5{
@@ -35,28 +31,37 @@ h5{
 p{
   font-family: 'Harmattan', sans-serif;
   font-size: 22px;
-  color: #4a4947;
+  color: #FADA5E;
   word-wrap: break-word;
   padding-left: 35px;
   padding-right: 35px;
-  line-height: 23px;
+  line-height: 30px;
 }
 
 .p1{
-    text-indent: 150px;
+  text-indent: 150px;
+}
+
+h3{
+    color: #FADA5E;
+    margin-left: 35px;
 
 }
 
-.newline{
-    margin-left: 150px;
+h2{
+    color: #FADA5E;
+    margin-left: 35px;
 
 }
 
+img{
+  background-color: transparent;
+}
 
-main {
-  
-
-
+span{
+  font-family: 'Harmattan', sans-serif;
+  font-size: 22px;
+  color: #FADA5E;
 }
 
 header{
