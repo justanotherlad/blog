@@ -153,3 +153,17 @@ code{
   top:20px;
   color: white;
 }
+
+.back_button{
+  margin-left: 10px;
+}
+
+.back{
+  font-family: 'Harmattan', sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  color: #4a4947;
+  margin-left: 6px;
+  position: relative;
+  bottom: 7px;
+}
