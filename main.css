@@ -38,8 +38,6 @@ main {
   justify-items: center;
   justify-content: space-evenly;
 
-  align-items: stretch;
-  align-content: center;
 }
 
 h1{
