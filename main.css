@@ -4,18 +4,20 @@ body {
 }
 
 html {
-  background-color: #e6fcf5;
   font-size: 16px;
   position: relative;
 }
 
 body {
+  background-color: #e6fcf5; 
   display: flex;
   flex-direction: column;
 }
 
 main {
   flex: 1;
+  margin-top: 44px;
+  padding-bottom: 44px;
 }
 
 header,
@@ -27,6 +29,7 @@ footer {
 
 h1 {
   font-family: "Quicksand", sans-serif;
+  font-size: 32px;
   color: white;
   padding-top: 25px;
   letter-spacing: 5px;
@@ -34,11 +37,13 @@ h1 {
 
 .blog {
   font-family: "Amatic SC", cursive;
+  font-size: 19px;
   padding-bottom: 17px;
   letter-spacing: 5px;
   color: white;
+  margin-bottom: 17px;
   position: relative;
-  bottom: 8px;
+  top:7px;
 }
 
 h2 {
@@ -46,9 +51,11 @@ h2 {
   font-size: 18px;
   font-weight: 600;
   letter-spacing: 0.3px;
+  line-height: 27px;
   text-align: left;
   color: #592352;
   padding: 10px 0px 0px 10px;
+  margin-top: 20px;
 }
 
 .recipe > img {
@@ -58,8 +65,7 @@ h2 {
 
 .recipe {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
-  width: 100%;
-  max-width: 250px;
+  width: 200px;
   transition: all 0.2s;
 }
 
@@ -83,6 +89,8 @@ h2 {
   text-align: left;
   color: #4a4a4a;
   position: relative;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .description {
@@ -93,14 +101,16 @@ h2 {
   letter-spacing: 0.1px;
   text-align: left;
   color: #4a4a4a;
-  padding: 10px 0px 10px 10px;
+  padding: 10px 10px 10px 10px;
   border-top: 1px solid #4a4a4a;
 }
 
-/* footer { */
-/*   position: absolute; */
-/*   bottom: 0; */
-/* } */
+
+footer{
+  margin-top: 84px;
+
+}
+
 
 footer a {
   font-size: 1.5rem !important;
