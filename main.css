@@ -113,18 +113,18 @@ footer{
 
 
 footer a {
-  font-size: 1.5rem !important;
-
+  font-size: 3rem !important;
   color: white;
 }
 
+
 #amplify {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2.7rem;
+  width: 2.7rem;
   color: white;
   border: 2px solid white;
-  border-radius: 7px;
-  padding: 1px 1px;
+  border-radius: 10px;
+  padding: 5px 1px;
   background-color: white;
 }
 
@@ -143,10 +143,9 @@ footer .fa:hover {
   text-decoration: none;
   font-family: 'Neuton', serif;
   color:white;
-  letter-spacing: 1px;
-  font-weight: bold;
+  letter-spacing: 3px;
   border: 1px solid white;
-  padding: 1px 4px;
+  padding:5px 7px;
   border-radius: 7%;
     
 
