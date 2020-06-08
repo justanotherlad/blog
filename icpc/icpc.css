@@ -1,12 +1,21 @@
+html,
+body {
+  min-height: 100vh;
+  min-width: 100vh;
+}
+
+
+
 
 html{
   background-color:  #f2f0e8;
+  font-size: 16px;
+  position: relative;
 }
 
 header, footer {
   background-color: #447c95 ;
   text-align: center;
-  min-width: 500px;
   color:   #d6dadc  ;
 }
 
@@ -46,14 +55,56 @@ blockquote{
 
 }
 
-.meme{
-  margin-right: 250px;
-  margin-left: 150px;
+.ami{
   border: 1px solid black;
+  border-radius: 5%;
+  background-color: #075E54;
+  font-weight: bold;
+  padding: 35px 12px;
+}
+
+.dip{
+  border: 1px solid black;
+  border-radius: 5%;
+  background-color: #075E54;
+  font-weight: bold;
+  padding: 35px 12px;
+}
+
+.meme{
+  border: 1px solid black;
+  margin-right: 20px;
+  margin-left: 20px;
   padding: 20px 20px;
   border-radius: 10%;
-  background-image: url("whatsapp.png")
+  background-image: url("whatsapp.png");
+  min-height: 500px;
 }
+
+@media screen and (min-width: 1008px){
+  .meme{
+    height: 600px;
+    max-width: 70%;
+  }
+
+  .r1{
+    padding-left: 200px;
+  }
+
+}
+
+
+@media screen and (min-width: 641px){
+  #ok{
+  width: 100%;
+  height: 415%;
+}
+#this_col{
+  position: relative;
+  right: 80px;
+}
+}
+
 
 video{
   outline: none;
@@ -64,60 +115,19 @@ video{
   padding-left: 600px;
 }
 
-.ami{
-  position: relative;
-  bottom: 300px;
-  margin-left: 350px;
 
-  border: 1px solid black;
-  margin-right: 300px;
-  padding: 35px 12px;
-  border-radius: 5%;
-  background-color: #075E54;
-  font-weight: bold;
+
+@media screen and (max-width: 640px){
+.top-buffer { margin-top:60px; }
+.top-buffer-2{ margin-top: 30px; }
+.top-buffer-3{ margin-top: 10px; }
+.top-buffer-fin{margin-top: 300px;}
+
+
 }
 
-.wr{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
+.top-buffer-1 { margin-top:30px; }
 
-.wr2{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-}
-
-
-.wr3{
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 10px;
-}
-
-.wr4{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column-gap: 10px;
-}
-
-
-.img2{
-  grid-template-rows: 1fr 1fr;
-  align-self: start;
-  
-}
-
-
-.dip{
-  border: 1px solid black;
-  margin-right: 540px;
-  margin-left: 30px;
-  padding: 35px 12px;
-  border-radius: 5%;
-  background-color: #075E54;
-  font-weight: bold;
-}
 
 .p2{
     
