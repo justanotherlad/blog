@@ -99,14 +99,6 @@ blockquote{
   right: 80px;
 }
 
-#this_img1{
-  height: 80%;
-}
-#this_img2{
-  height:80%;
-}
-
-
 }
 
 
@@ -126,6 +118,13 @@ video{
 .top-buffer-2{ margin-top: 30px; }
 .top-buffer-3{ margin-top: 10px; }
 .top-buffer-fin{margin-top: 300px;}
+
+#this_img1{
+  height: 80%;
+}
+#this_img2{
+  height:80%;
+}
 
 
 }
