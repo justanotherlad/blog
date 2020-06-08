@@ -14,10 +14,16 @@ body {
   flex-direction: column;
 }
 
+
 main {
   flex: 1;
   margin-top: 44px;
   padding-bottom: 44px;
+}
+
+@media screen and (max-width: 640px){
+.top-buffer { margin-top:40px; }
+
 }
 
 header,
@@ -109,13 +115,21 @@ h2 {
 footer{
   margin-top: 84px;
 
-} 
-
+}
 
 footer a {
   font-size: 3rem !important;
   color: white;
 }
+
+@media screen and (max-width: 640px){
+
+  footer a {
+  font-size: 2rem !important;
+  color: white;
+}  
+
+} 
 
 
 #amplify {
@@ -127,6 +141,19 @@ footer a {
   padding: 5px 1px;
   background-color: white;
 }
+
+@media screen and (max-width: 640px){
+  #amplify {
+  height: 1.8rem;
+  width: 1.8rem;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 2px 1px;
+  background-color: white;
+}
+} 
+
 
 #amplify:hover{
   border-color: black;
@@ -147,13 +174,38 @@ footer .fa:hover {
   border: 1px solid white;
   padding:5px 7px;
   border-radius: 7%;
-    
 
+  outline: none;
+  font-size: 1.2rem !important;
 }
+
+@media screen and (max-width: 640px){
+ #contact{
+
+  text-decoration: none;
+  font-family: 'Neuton', serif;
+  color:white;
+  letter-spacing: 3px;
+  border: 1px solid white;
+  padding:5px 7px;
+  border-radius: 7%;
+
+  outline: none;
+  font-size: 0.9rem !important;
+}
+} 
 
 #contact:hover{
   color:black;
   border-color: black;
 }
 
+
+@media screen and (max-width: 640px){
+ 
+  code{
+    font-size: 0.6rem;
+  }
+
+} 
 
