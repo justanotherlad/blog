@@ -1,3 +1,1 @@
-None of your business >.<\
-\
-Jk, learning html,css, js in my free time
+Has my [blog](https://justanotherlad.github.io/blog/) in the [gh-pages](https://github.com/justanotherlad/blog/tree/gh-pages) branch, and some additional crap files.
